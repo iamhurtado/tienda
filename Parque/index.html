@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parque Ecológico - Angel Hurtado</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Parque Ecológico</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#incio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#mapa">Mapa</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="bienvenida">
+        <h2>Bienvenidos al Parque Ecológico</h2>
+        <p>En el Parque Ecológico promovemos la conservación de la naturaleza y el disfrute del aire libre. Aquí podrás disfrutar de hermosos senderos, flora y fauna local.</p>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Senderos ecológicos</li>
+            <li>Visitas guiadas</li>
+            <li>Zona de picnic</li>
+            <li>Actividades educativas</li>
+        </ul>
+    </section>
+
+    <section id="galeria">
+        <h2>Galería</h2>
+        <div class="galeria-imagenes">
+            <img src="parque1.jpg" alt="Imagen 1">
+            <img src="parque2.jpg" alt="Imagen 2">
+            <img src="parque3.webp" alt="Imagen 3">
+        </div>
+    </section>
+
+    <section id="videos">
+        <h2>Videos</h2>
+        <div class="videos-container">
+            <div class="video">
+                <iframe width="320" height="180" 
+                    src="https://www.youtube.com/embed/DsvJ7iv_d7Y?autoplay=0&mute=1&controls=1" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe width="320" height="180" 
+                    src="https://www.youtube.com/embed/42WnLzLQCmQ?autoplay=0&mute=1&controls=1" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section id="mapa">
+        <h2>Ubicación del Parque</h2>
+        <div class="mapa-container">
+            <iframe src="https://www.google.com/maps?q=Juigalpa,+Chontales,+Nicaragua&output=embed" 
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Si tienes alguna duda o necesitas más información, no dudes en contactarnos.</p>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 José Ángel Hurtado Ramos. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
