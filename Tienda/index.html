@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angel Hurtado Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div id="cargando" class="pantalla-carga">
+        <div class="mensaje-carga">
+            <h2>Bienvenido estimado cliente...</h2>
+            <i class="fas fa-heart"></i> 
+            <i class="fas fa-shopping-cart"></i> 
+        </div>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Angel Hurtao Shop</h1>
+            </div>
+            <ul class="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#acerca">Acerca de</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   
+
+    <section id="productos" class="productos-destacados">
+        <h2>Productos Destacados</h2>
+        <div class="productos">
+            <div class="producto">
+                <div class="producto-image">
+                    <img src="zapato1.jpg" alt="Zapato 1">
+                </div>
+                <div class="producto-info">
+                    <h3>Zapato de Cuero</h3>
+                    <p>Zapato de cuero para hombre, elegante y cómodo.</p>
+                    <button class="btn-compra">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="producto-image">
+                    <img src="zapato2.webp" alt="Zapato 2">
+                </div>
+                <div class="producto-info">
+                    <h3>Zapato Deportivo</h3>
+                    <p>Zapatos deportivos para salir a correr en tus rutinas del aire libre.</p>
+                    <button class="btn-compra">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="producto-image">
+                    <img src="zapato3.webp" alt="Zapato 3">
+                </div>
+                <div class="producto-info">
+                    <h3>Zapato Casual</h3>
+                    <p>Zapatos planos casuales cómodos de color sólido para hombre, mocasines ligeros y antideslizantes.</p>
+                    <button class="btn-compra">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="producto-image">
+                    <img src="zapato4.webp" alt="Zapato 4">
+                </div>
+                <div class="producto-info">
+                    <h3>Bota de Trabajo</h3>
+                    <p>Bota de trabajo Danner Vicious 4.5" Soft Toe WP para hombre - Marrón - 13858.</p>
+                    <button class="btn-compra">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo electrónico" required>
+            <textarea placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="tarjetas-pago">
+            <i class="fab fa-cc-visa"></i>
+            <i class="fab fa-cc-mastercard"></i>
+            <i class="fab fa-cc-amex"></i>
+            <i class="fab fa-paypal"></i>
+        </div>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>&copy; 2024 Josè Àngel Hurtado. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        window.onload = function() {
+            const pantallaCarga = document.getElementById('cargando');
+            pantallaCarga.style.display = 'none';
+        };
+    </script>
+
+</body>
+</html>
